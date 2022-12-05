@@ -33,11 +33,6 @@
     gap: 30px;
 }
 
-.lemini {
-    width: 200px;
-    height: 100px;
-}
-
 .Somptieux {
     width: 200px;
     height: 100px;
@@ -69,13 +64,19 @@
     height: 100px;
 }
 
-.pâteaupoulet {
+
+.img-produit {
     width: 200px;
     height: 100px;
 }
 
-.Pâteauviandehachée {
+
+.Wrapaupoulet { 
     width: 200px;
     height: 100px;
-    
+}
+
+.Wrapavocatcrevettes{
+    width: 200px;
+    height: 100px;
 }
