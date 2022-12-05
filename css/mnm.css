@@ -1,0 +1,81 @@
+.panier {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.sandwichpoulet {
+    width: 200px;
+    height: 90px;
+}
+
+.produit {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+.description {
+    width: 300px;
+    text-align: center;
+}
+
+.titre {
+    text-align: center;
+
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lemini {
+    width: 200px;
+    height: 100px;
+}
+
+.Somptieux {
+    width: 200px;
+    height: 100px;
+}
+
+.pizzamargherita {
+    width: 200px;
+    height: 100px;
+}
+
+.pizza4fromages {
+    width: 200px;
+    height: 100px;
+}
+
+.pizza4saisons {
+    width: 200px;
+    height: 100px;
+}
+
+.Saladecesar {
+    width: 200px;
+    height: 100px;
+}
+
+
+.Saladepêcheur {
+    width: 200px;
+    height: 100px;
+}
+
+.pâteaupoulet {
+    width: 200px;
+    height: 100px;
+}
+
+.Pâteauviandehachée {
+    width: 200px;
+    height: 100px;
+    
+}
