@@ -3,63 +3,155 @@ body {
 }
 
 #main-container{
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .header {
-    box-shadow: 0 0 10px 10px grey;
+    box-shadow: 0 0 5px 5px #f0f0f0;
     width: 100%;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    align-items: center;
 }
 
-h1 {
-    font-family: "Audiowide", sans-serif;
-    color: rgb(242, 242, 242);
-    justify-content: center;
-}
 
-#conteneure2 {
-    border-radius: 2px;
-    color: rgb(15, 14, 14);
-    width: 80%;
-    display: flex;
+
+#conteneur2 {
+    width: 100%;
 }
 #conteneur2 img{
-    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 
 #conteneur3 {
-   padding: auto;
+   justify-content: center;
+   padding: 10px;
     margin: auto;
     text-align: auto;
     width: 100%;
     height: 30%;
+    gap: 10px;
     display:flex;
-    justify-content:space-between;
-    
-
 }
 
+.w-110 {
+    width: 110px;
+}
+#conteneur4-wrapper {
+    padding: 40px;
+    margin: auto;
+    
+}
+.product-container {
+    width: 220px;
+}
+.product-a {
+    box-sizing: border-box;
+    position: relative;
+    outline: none;
+    display: block;
+    text-decoration: none;
+    color: #2e3333;
+    height: 100%;
+}
+.product-span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.product-image {
+    background-size: cover;
+    background-position: 50%;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 
-#conteneur4 {
+}
+.product-span .span-img {
+    position: relative;
+    display: block;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+.span-desc {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 0 12px 12px;
+}
+.min-card {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    transform: translateY(calc(-100% + 10px));
+}
+.bubble {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 100px;
+    font-size: 8.5px;
+    font-weight: 600;
+    text-align: center;
+    margin: -8px 8px 0 0;
+    min-height: 33px;
+    line-height: normal;
+    letter-spacing: 0;
+    box-shadow: 0 4px 14px -4px #00000014;
+    padding: 6px 16px;
+}
+.bubble-li {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--max-lines);
+}
+#conteneur4 {
+   
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
     height: px;
-    width: 100%;
     border: radius 2px;
     margin: auto;
-
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #conteneur4 img{
     border-radius: 20px;
 }
+.a-la-une-title {
+    font-family: plex-sans,sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+}
+#conteneur4 .product-desc{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(46, 51, 51);
+    margin: 0px 0px 4px;
+}
+
 
 #conteneur5 {
     border: 2px;
@@ -84,7 +176,25 @@ h1 {
 #Lastpage img{
     border-radius: 20px;
 }
+.footer-bloc h4 {
+    font-family: plex-sans,sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.footer-bloc p {
+    font-size: 14px;
+    line-height: 19px;
+    font-family: plex-sans,sans-serif;
+    margin: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
 
+}
+.footer-bloc a img {
+    width: 34px;
+    height: 34px;
+}
 .footer {
     display: flex;
     justify-content: center;
@@ -105,18 +215,12 @@ h1 {
 p {
     color: rgb(5, 5, 5);
 }
-h6{
-    color: aliceblue;
-}
 
-h4 {
-    color: rgb(253, 253, 253);
-    font-family: "Audiowide", sans-serif;
-}
+
 
 footer{
     
-    box-shadow: 0 0 10px 10px grey;
+    box-shadow: 0 0 5px 5px #f0f0f0;
     width: 100%;
     height: 30%;
     display: flex;
@@ -125,8 +229,167 @@ footer{
     padding: 20px;
 }
 
-footer h6, footer h4 {
-    color: black;
+
+
+
+.panier {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
+
+.sandwichpoulet {
+    width: 200px;
+    height: 90px;
+}
+
+.produit {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+.description {
+    width: 300px;
+    text-align: center;
+}
+
+.titre {
+    text-align: left;
+    padding: 20px;
+}
+
+.liste {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Somptieux {
+    width: 200px;
+    height: 100px;
+}
+
+.pizzamargherita {
+    width: 200px;
+    height: 100px;
+}
+
+.pizza4fromages {
+    width: 200px;
+    height: 100px;
+}
+
+.pizza4saisons {
+    width: 200px;
+    height: 100px;
+}
+
+.Saladecesar {
+    width: 200px;
+    height: 100px;
 }
 
 
+.Saladepêcheur {
+    width: 200px;
+    height: 100px;
+}
+
+
+.img-produit {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+.Wrapaupoulet { 
+    width: 200px;
+    height: 100px;
+}
+
+.Wrapavocatcrevettes{
+    width: 200px;
+    height: 100px;
+}
+.product-container-ul {
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px #00000014;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product-container-li {
+    padding: 20px;
+}
+.product-container-div {
+    background-color: #fff;
+    border: 1px solid #0000000a;
+    box-shadow: none;
+    cursor: pointer;
+    height: 100%;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow .2s ease-in-out;
+    width: 220px;
+    word-break: break-word;
+}
+
+.btn-add-panier {
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.product-title {
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.product-desc-h {
+    height: 90px;
+}
+.product-desc {
+    font-size: 14px;
+    line-height: 19px;
+    color: #585c5c;
+    
+}
+
+.product-price {
+    font-size: 16px;
+    line-height: 22px;
+    color: #585c5c;
+}
+.menu-item-image {
+    border: 1px solid #00000014;
+    border-radius: 3px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    width: 220px;
+}
+.product-img {
+    height: 180px;
+    background-size: cover;
+}
+.product-desc-container {
+    padding: 10px;
+}
+.product-container-flex {
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style-type: none;
+}
