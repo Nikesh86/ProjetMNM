@@ -34,8 +34,6 @@ body {
 #conteneur3 {
    justify-content: center;
    padding: 10px;
-    margin: auto;
-    text-align: auto;
     width: 100%;
     height: 30%;
     gap: 10px;
@@ -46,8 +44,8 @@ body {
     width: 110px;
 }
 #conteneur4-wrapper {
-    padding: 40px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
     
 }
 .product-container {
@@ -142,6 +140,8 @@ body {
     font-size: 22px;
     line-height: 28px;
     font-weight: 700;
+    margin-left: 18%;
+    margin-top: 2%;
 }
 #conteneur4 .product-desc{
     padding: 20px;
