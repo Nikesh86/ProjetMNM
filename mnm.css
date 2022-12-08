@@ -2,6 +2,10 @@ body {
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 #main-container{
     width: 100%;
     display: flex;
@@ -140,7 +144,7 @@ body {
     font-size: 22px;
     line-height: 28px;
     font-weight: 700;
-    margin-left: 18%;
+    text-align: center;
     margin-top: 2%;
 }
 #conteneur4 .product-desc{
